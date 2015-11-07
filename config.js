@@ -4,10 +4,10 @@ exports.port = process.env.PORT || 3000;
 exports.mongodb = {
   uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost:27017/drywall'
 };
-exports.companyName = 'Acme, Inc.';
+exports.companyName = 'kmnet.net';
 exports.projectName = 'Drywall';
-exports.systemEmail = 'your@email.addy';
-exports.cryptoKey = 'k3yb0ardc4t';
+exports.systemEmail = 'webmaster@kmnet.net';
+exports.cryptoKey = 'key@kmnet.net';
 exports.loginAttempts = {
   forIp: 50,
   forIpAndUser: 7,
